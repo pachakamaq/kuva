@@ -1,0 +1,56 @@
+@media screen{
+	div{
+		margin-top: 0;
+		}
+	#page{
+		width: 650px;
+		margin: 0 auto;
+		}
+		#sidebar{
+/*			background-color: pink; */
+			width: 3.8em;
+			float: left;
+			position: relative;
+			}
+			#menu{
+				margin-top: 0;
+				list-style-type: none;
+				padding: .3em;
+				}
+			#sidebar #separator{
+				float: right;
+				top: 0;
+				right: 0;
+				position: absolute;
+			
+				background-color: #009900;
+				width: 1px;
+				height: 8em;
+				}
+				#sidebar #separator #end{
+					margin-bottom: 0;
+					bottom: 0;
+					position: absolute;
+					vertical-align: bottom;
+					z-index: 100;
+				
+					width: 1px;
+					height: 50px;
+					background-image: url("/kuva/templates/images/green fade.jpg");
+					background-repeat: repeat-x;
+					}
+		#content{
+/*			background-color: yellow; */
+			width: 580px;
+			float: right;
+			}
+			#content > p{						
+				margin: 0;
+				padding: .3em;
+				}
+}
+@media aural, speech, tty, braille, embossed{
+				#sidebar #separator #end{
+					display: none;
+				}
+}
