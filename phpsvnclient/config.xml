@@ -1,4 +1,0 @@
-<config>
-    <source url="http://phpsvnclient.googlecode.com/svn/" local="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>/phpsvnclient" />
-<!--    <source url="http://kuva.googlecode.com/svn/" local="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>/kuva" /> -->
-</config>
