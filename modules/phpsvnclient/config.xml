@@ -1,0 +1,9 @@
+<config>
+    <source url="http://phpsvnclient.googlecode.com/svn/">
+        <directory remote="trunk" local="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>/phpsvnclient" />
+    </source>
+    <source url="http://kuva.googlecode.com/svn/">
+        <directory remote="trunk/core" local="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>/kuva" />
+        <directory remote="trunk/modules/phpsvnclient" local="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>/kuva/modules/phpsvnclient" />
+    </source>
+</config>
