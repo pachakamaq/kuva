@@ -1,3 +1,0 @@
-<config template="/kuva/templates/default.xml">
-    <module src="/kuva/modules/phpsvnclient.php" />
-</config>
