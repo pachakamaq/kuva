@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary The guts of Kuva.
 #labels Phase-Deploy,Featured,Phase-Implementation
 
 = core =
