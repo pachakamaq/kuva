@@ -1,10 +1,10 @@
 <?php echo '<?xml version="1.0" standalone="yes"?>'; ?>
 <config>
     <source url="http://phpsvnclient.googlecode.com/svn/">
-        <directory remote="trunk" local="<?php $_SERVER['DOCUMENT_ROOT']; ?>/phpsvnclient" />
+        <directory remote="trunk" local="/tmp/phpsvnclient" />
     </source>
     <source url="http://kuva.googlecode.com/svn/">
-        <directory remote="trunk/core" local="/tmp/kuva" />
-        <directory remote="trunk/modules/phpsvnclient" local="/tmp/kuva/modules/phpsvnclient" />
+        <directory remote="branches/jesdisciple/core" local="/tmp/kuva" />
+        <directory remote="branches/jesdisciple/extensions/librarian" local="/tmp/kuva/extensions/librarian" />
     </source>
 </config>
