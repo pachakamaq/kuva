@@ -1,0 +1,8 @@
+#summary Predefined custom layouts for consistency and ease of development.
+#labels Phase-Deploy,Featured
+
+= templates =
+
+The trunk/[core]/templates directory within the repository, which corresponds to /kuva/templates on standard installations, is intended to hold the currently used template plus any which are being kept as alternatives, although there is no technical requirement for them to be grouped together.  It initially contains a default template with very little eye-candy named, appropriately enough, default.xml.  The current template is specified in the `template` attribute of the root element in /trunk/core/config.xml (or /kuva/config.xml in standard installations).
+
+Templates may take advantage of all the [XML] features except for the `title` and `content` elements, whose only instances are reserved for use by pages (but no code is yet in place to allow for duplicates or prevent templates from setting them).  Currently the only remaining elements are `style` (any number of instances) and `body` (one instance), but `script` and `meta` are planned to be similar to `style`.
