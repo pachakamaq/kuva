@@ -16,4 +16,4 @@ Now we should move index.php from the core module's folder to the webroot so it 
 mv kuva/index.php .
 }}}
 
-That's it!  Now that Kuva is installed, you should refer to the instructions on how to use [XML] to author pages which Kuva understands.
+That's it!  Now that Kuva is installed, you should refer to the instructions on how to use [XML] to author pages which Kuva understands.  You will probably also be interested in [extensions] which offer more convenient features than the core module does by itself.
