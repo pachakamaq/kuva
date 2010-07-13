@@ -22,4 +22,4 @@ These planned elements will also be allowed multiple instances:
 ==Templates==
 _Primary documentation: [templates]_
 
-The default template specifies, via attributes on its document-element, that it uses the MENU and CONTENT variables and is indexable by code-viewers (see [candid]) but implicitly not the site menu (see [waiter]).  It also sets the STYLE and BODY variables by including elements of the same names.  Note that all variable names are lowercase in XML, as both attribute values and element names.
+The default template specifies, via attributes on its root element, that it uses the MENU and CONTENT variables and is indexable by code-viewers (see [candid]) but implicitly not the site menu (see [waiter]).  It also sets the STYLE and BODY variables by including elements of the same names, and elements which may be included multiple times in pages (see above) are also valid in templates.  Note that all variable names are lowercase in XML, as both attribute values and element names.
