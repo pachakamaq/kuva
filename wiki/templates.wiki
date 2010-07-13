@@ -1,5 +1,5 @@
 #summary Predefined custom layouts for consistency and ease of development.
-#labels Phase-Deploy,Featured
+#labels Phase-Deploy
 
 = templates =
 
