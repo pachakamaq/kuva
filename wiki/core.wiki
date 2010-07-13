@@ -9,4 +9,4 @@ To tell index.php how to handle a request, you must craft the URL such that the 
 
 index.php takes the specified path, replaces any _.php_ file extension with _.xml_, and passes the contents through the PHP parser.  The output is loaded as XML and certain parts are located and placed at the appropriate positions within the resulting HTML document.  
 
-This placement is the phase where [templates] become relevant, and you should understand how they work if you plan to administer a site with Kuva.  Content-authors need not be concerned about templates for the most part, although knowledge of [XML] is essential if they will be editing the files directly.
+This placement is the phase where [templates] become relevant, and you should understand how they work if you plan to administer a site with Kuva.  Content-authors need not be concerned about templates for the most part, although knowledge of [XML] is essential if they will be editing pages directly.
