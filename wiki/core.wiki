@@ -1,5 +1,5 @@
 #summary The guts of Kuva.
-#labels Phase-Deploy,Phase-Implementation,Featured
+#labels Phase-Deploy
 
 = core =
 
