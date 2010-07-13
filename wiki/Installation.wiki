@@ -13,7 +13,7 @@ svn checkout http://kuva.googlecode.com/svn/trunk/core/ kuva
 
 Now we should move index.php from the core module's folder to the webroot so it may process all HTTP requests (for the webroot).  This example is also designed for Linux.
 {{{
-ln -s kuva/index.php .
+mv kuva/index.php .
 }}}
 
 That's it!  Now that Kuva is installed, you should refer to the instructions on how to use [XML] to author pages which Kuva understands.
