@@ -1,5 +1,5 @@
 #summary Want to get involved?  Read this!
-#labels Phase-Implementation,Featured
+#labels Featured,Phase-Implementation
 
 = Developing Kuva =
 
@@ -7,7 +7,8 @@ Kuva is a very young project and therefore relatively easy to hack on.  However,
   * Keep the format of your code consistent with existing code.  So far this means:
     * Use Java-style curly brackets and indentation.
     * Indent four spaces for each level (and a tab is not equivalent to four spaces).
-    * Include spaces around binary operators such as + - `*` / . && || & | and => but not property accessors :: and ->, round/curly/square brackets () {} `[]`, or unary operators like ! or - (the negative sign).  
+    * Indent the closing bracket in CSS statements to the same level as the declarations, and an entire statement to the same level as the declarations of another statement which could be considered hierarchically 'above' it.
+    * Include spaces around binary operators such as + - `*` / . && || & | and => and between the : and value in CSS declarations, but not around property accessors :: and ->, round/curly/square brackets () {} `[]`, or unary operators like ! or - (the negative sign).
   * Enclose PHP strings in single-quotes rather than double unless you intend PHP to subsitute variables into them.
   * Enclose XML and HTML attribute values in double-quotes.
   * Document variables and all functions with Javadoc-type comments, i.e.:
