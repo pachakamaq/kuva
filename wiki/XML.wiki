@@ -1,5 +1,5 @@
 #summary How to inform Kuva about various site details, including content
-#labels Phase-Deploy,Featured
+#labels Phase-Deploy
 
 =XML=
 
