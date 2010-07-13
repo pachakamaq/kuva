@@ -1,0 +1,22 @@
+#summary Existing and planned extensions, and guidelines for developing new ones.
+
+= Extensions =
+
+This page lists all existing extensions and those which are planned, along with descriptions and the names of their developers.  Guidelines for all extension authors are provided at the page's bottom.
+
+== Existing extensions ==
+
+=== Version control ===
+
+  * [phpsvnclient]: Interfaces with [http://code.google.com/p/phpsvnclient/ phpsvnclient] to update site modules.
+    * Jesdisciple
+
+== Planned extensions ==
+
+=== Site indexing ===
+
+  * [waiter]: Assembles a site-wide menu based on the filesystem; may be configured to ignore certain files and/or to use replacements for specific ones.
+
+=== Code display ===
+
+  * [candid]: Displays the source of all non-restricted files, and adds a link for each page's source to the HTML when that page is requested.  Also links to the GPLv2 at every opportunity.  Will likely depend upon an [#Site indexing indexer] other than itself to avoid redundancy of expensive routines.
