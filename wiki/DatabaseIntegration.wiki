@@ -1,5 +1,5 @@
 #summary An idea for a useful extension.
-#labels Phase-Implementation,Featured
+#labels Phase-Implementation
 
 = Database integration =
 
