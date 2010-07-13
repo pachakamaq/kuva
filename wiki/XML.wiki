@@ -9,12 +9,12 @@ XML files may only contain one level of elements below the root, and any content
 
 ==Pages==
 Pages may include `title` and `content` elements; the value of the resulting TITLE variable will be placed in the corresponding HTML tag on the delivered page, while the current template is responsible for placing the CONTENT.  In addition, the following elements may be specified multiple times:
-  * `style`: Supplies some CSS to make the delivered page pretty.  Internal styles must be wrapped in <![CDATA[ ]]> tags.
+  * `style`: Supplies some CSS to make the delivered page pretty.  Internal styles must be wrapped in `<![CDATA[ ]]>` tags.
     * `src`: This optional attribute, if present, indicates the URL of a CSS file, and causes the XML element to be represented by the HTML `link` element.  Otherwise the HTML appears identical to the XML, except for the `type="text/css"` which is added for both external and internal styles for compatibility with pre-HTML5 browsers.
     * `media`: This optional attribute will be added directly to the corresponding HTML element.
 
 These planned elements will also be allowed multiple instances:
-  * `script`: Identical to the HTML element by the same name, except that its contents must be wrapped in a <![CDATA[ ]]> tag and the attribute `type="text/javascript"` is added for compatibility with pre-HTML5 browsers.
+  * `script`: Identical to the HTML element by the same name, except that its contents must be wrapped in a `<![CDATA[ ]]>` tag and the attribute `type="text/javascript"` is added for compatibility with pre-HTML5 browsers.
     * `src`: This optional attribute will be added directly to the corresponding HTML element.
 
   * `meta`: Identical to the HTML element by the same name, including all attributes.  Values which correspond to HTTP headers will be sent to the browser via HTTP in addition to the HTML elements.
