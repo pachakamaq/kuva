@@ -3,7 +3,7 @@
 
 =XML=
 
-XML is used to specify various data, including what would be in a [database] if one were available.  Pages, templates, and configurations are all expressed in XML, and PHP's standard [http://www.php.net/manual/en/book.dom.php DOM] extension is used to 'understand' them and assemble HTML documents for delivery to the client.
+XML is used to specify various data, including what would be in a [DatabaseIntegration database] if one were available.  Pages, templates, and configurations are all expressed in XML, and PHP's standard [http://www.php.net/manual/en/book.dom.php DOM] extension is used to 'understand' them and assemble HTML documents for delivery to the client.
 
 XML files may only contain one level of elements below the root, and any contents of them must be wrapped with <![CDATA[ ]]> tags.  Full XML support is planned, i.e. content which is valid XML should eventually be allowed naked within children of the root, and simply copied over to the new page via PHP's DOM facilities.
 
